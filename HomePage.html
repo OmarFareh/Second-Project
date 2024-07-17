@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("Images/img2b.png") no-repeat;
+            background-size: 100% 100%;
+            display: flex;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding-top: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .sidebar .active {
+            background-color: #575757;
+        }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#welcome" class="active">Home</a>
+        <a href="Pages/Our Services.html">Our Services</a>
+        <a href="Pages/Reviews.html">Customer Reviews</a>
+        <a href="Pages/Contact us.html">Contact Us</a>
+        <a href="Pages/Sell.html">Sell Your Car</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Fareh For Cars</h1>
+            <img width="25%" src="Images/img2.png" alt="Fareh For Cars Logo">
+        </header>
+
+        <div class="section" id="welcome">
+            <h1>Welcome to Fareh For Cars!</h1>
+            <p>
+                <b>At Fareh for Cars, we are passionate about helping you find the perfect vehicle that suits your
+                    lifestyle and needs. Located in Amman, we offer an extensive selection of both new and pre-owned
+                    vehicles from top brands, ensuring you have a wide range of options to choose from.</b>
+            </p>
+        </div>
+
+        <div class="section">
+            <h1>Our Services</h1>
+            <ol style="list-style-type: circle;">
+                <li>New and Used Vehicle Sales</li>
+                <li>Financing and Leasing Options</li>
+                <li>Vehicle Trade-Ins</li>
+                <li>Service and Maintenance</li>
+                <li>Parts and Accessories</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h1>Customer Reviews</h1>
+            <p>
+                <b>At Fareh for Cars, we pride ourselves on delivering exceptional service and quality vehicles to our
+                    customers. But don't just take our word for it – see what our satisfied customers have to say! Our
+                    commitment to excellence is reflected in the positive feedback we receive from those who have
+                    trusted us with their automotive needs. Read through our customer reviews to learn more about their
+                    experiences with Fareh for Cars.</b>
+            </p>
+        </div>
+
+        <div class="section">
+            <h1>Get in Touch with Fareh for Cars</h1>
+            <p>
+                <b>At Fareh for Cars, we're here to assist you with all your automotive needs. Whether you have
+                    questions about our vehicles, need more information on financing options, or want to schedule a
+                    service appointment, our dedicated team is ready to help. Your satisfaction is our top priority,
+                    and we strive to provide prompt and reliable support. Feel free to reach out to us via phone, email,
+                    or by visiting our dealership. We look forward to hearing from you!</b>
+            </p>
+        </div>
+
+        <div class="section">
+            <h1>Selling Cars?</h1>
+            <p>
+                <b>Selling your car on Fareh for Cars is simple and convenient. Our website makes it easy for you to
+                    list your car and connect with potential buyers. Just follow a few quick steps to create your
+                    listing, and our team will help you set the right price. Whether you're upgrading or just need to
+                    sell, Fareh for Cars is here to make the process smooth and easy.</b>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

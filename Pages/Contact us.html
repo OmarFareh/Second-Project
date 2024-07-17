@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fareh for Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding-top: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            margin-left: 250px; /* Adjusted to accommodate sidebar width */
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body background="contactimg.jpeg" style="background-repeat: no-repeat; background-size: 100% 100%;">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="../HomePage.html" >Home</a>
+        <a href="Our Services.html"  >Our Services</a>
+        <a href="Reviews.html"  >Customer Reviews</a>
+        <a href="Sell.html" >Sell Your Car</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>At Fareh for Cars, we're here to assist you with all your automotive needs. Whether you have questions about
+            our vehicles, need more information on financing options, or want to schedule a service appointment, our
+            dedicated team is ready to help. Your satisfaction is our top priority, and we strive to provide prompt and
+            reliable support. Feel free to reach out to us via phone, email, or by visiting our dealership. We look
+            forward to hearing from you!</p>
+
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:farehomar22@gmail.com">farehomar22@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+962790043054">+962 790043054</a></li>
+            <li><strong>Address:</strong> Amman, Jordan</li>
+        </ul>
+
+        <h2>Send Us a Message</h2>
+        <form action="[form submission URL]" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
